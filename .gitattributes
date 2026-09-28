@@ -1,0 +1,2 @@
+# Keep raw measurement files byte-identical to what the scripts wrote (Python csv uses CRLF)
+*.csv -text

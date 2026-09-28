@@ -1,0 +1,13 @@
+mode,rate,trials,sent_in_partition,acked_in_partition,lost_mean,lost_min,lost_max,rolled_back_mean,unavailable_s_median,final_count_min
+mongo-majority,0.16,3,2.0,0.0,0.0,0,0,2.0,42.3,467
+mongo-majority,1.0,3,8.0,0.0,0.0,0,0,8.0,41.3,467
+mongo-majority,10.0,3,9.0,0.0,0.0,0,0,9.0,10.7,467
+redis-wait,0.16,3,2.0,0.0,0.0,0,0,,6.2,467
+redis-wait,1.0,3,8.0,0.0,0.0,0,0,,6.8,467
+redis-wait,10.0,3,9.0,0.0,0.0,0,0,,6.0,467
+mongo-w1,0.16,3,2.0,2.0,2.0,2,2,2.0,12.2,465
+mongo-w1,1.0,3,8.0,8.0,8.0,8,8,8.0,12.3,459
+mongo-w1,10.0,3,80.0,80.0,80.0,80,80,80.0,12.2,387
+redis-async,0.16,3,2.0,2.0,2.0,2,2,,6.3,465
+redis-async,1.0,3,8.0,8.0,8.0,8,8,,6.2,459
+redis-async,10.0,3,80.0,80.0,80.0,80,80,,6.4,387

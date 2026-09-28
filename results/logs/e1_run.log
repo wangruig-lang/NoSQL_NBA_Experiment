@@ -1,0 +1,18 @@
+primary = mongo2; delay is added on mongo1, mongo3, redis2
+delay   0 ms  mongo-w1        min WAIT replicas     p50    0.19 ms  p95    0.48 ms  p99    0.63 ms  whole game   0.11 s
+delay   0 ms  mongo-majority  min WAIT replicas     p50    0.72 ms  p95    0.99 ms  p99    1.59 ms  whole game   0.36 s
+delay   0 ms  redis-async     min WAIT replicas     p50    0.07 ms  p95    0.07 ms  p99    0.08 ms  whole game   0.03 s
+delay   0 ms  redis-wait      min WAIT replicas  1  p50    0.13 ms  p95    0.16 ms  p99    0.18 ms  whole game   0.07 s
+delay   2 ms  mongo-w1        min WAIT replicas     p50    0.22 ms  p95    0.55 ms  p99    0.86 ms  whole game   0.13 s
+delay   2 ms  mongo-majority  min WAIT replicas     p50    5.35 ms  p95    6.38 ms  p99    7.71 ms  whole game   2.56 s
+delay   2 ms  redis-async     min WAIT replicas     p50    0.07 ms  p95    0.08 ms  p99    0.08 ms  whole game   0.03 s
+delay   2 ms  redis-wait      min WAIT replicas  1  p50    2.93 ms  p95    3.44 ms  p99    4.36 ms  whole game   1.44 s
+delay  10 ms  mongo-w1        min WAIT replicas     p50    0.14 ms  p95    0.29 ms  p99    0.52 ms  whole game   0.08 s
+delay  10 ms  mongo-majority  min WAIT replicas     p50   24.36 ms  p95   26.42 ms  p99   28.67 ms  whole game  11.31 s
+delay  10 ms  redis-async     min WAIT replicas     p50    0.06 ms  p95    0.09 ms  p99    0.15 ms  whole game   0.03 s
+delay  10 ms  redis-wait      min WAIT replicas  1  p50   12.48 ms  p95   13.71 ms  p99   63.55 ms  whole game   6.09 s
+delay  50 ms  mongo-w1        min WAIT replicas     p50     0.1 ms  p95    0.22 ms  p99    0.46 ms  whole game   0.06 s
+delay  50 ms  mongo-majority  min WAIT replicas     p50  105.76 ms  p95  107.95 ms  p99  110.62 ms  whole game  47.49 s
+delay  50 ms  redis-async     min WAIT replicas     p50    0.06 ms  p95    0.11 ms  p99    0.15 ms  whole game   0.03 s
+delay  50 ms  redis-wait      min WAIT replicas  1  p50   53.05 ms  p95  142.92 ms  p99  148.14 ms  whole game  27.23 s
+wrote results/e1_summary.csv and results/e1_latency_raw.csv

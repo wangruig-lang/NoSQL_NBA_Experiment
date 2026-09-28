@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+# NBA play-by-play is downloaded by fetch_pbp.py and not redistributed here
+data/
+# Times New Roman is a licensed font; add your own copy locally if you want the paper's typeface
+fonts/

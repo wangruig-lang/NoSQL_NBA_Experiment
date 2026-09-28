@@ -1,0 +1,6 @@
+primary = mongo3; delay is added on mongo1, mongo2, redis2
+delay   0 ms  redis-wait      min WAIT replicas  1  p50    0.15 ms  p95    0.27 ms  p99    0.42 ms  whole game   0.07 s
+delay   2 ms  redis-wait      min WAIT replicas  1  p50    3.03 ms  p95    3.41 ms  p99    3.74 ms  whole game   1.47 s
+delay  10 ms  redis-wait      min WAIT replicas  1  p50    12.5 ms  p95   13.73 ms  p99   64.38 ms  whole game   6.11 s
+delay  50 ms  redis-wait      min WAIT replicas  1  p50   53.17 ms  p95  143.16 ms  p99  147.92 ms  whole game  27.36 s
+wrote results/e1_summary.csv and results/e1_latency_raw.csv

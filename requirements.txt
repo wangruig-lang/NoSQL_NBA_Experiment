@@ -1,0 +1,9 @@
+# Versions used for the reported results (client container, Python 3.12.14)
+pymongo==4.18.1
+redis==8.1.0
+nba_api==1.11.4
+pandas==3.0.5
+matplotlib==3.11.2
+docker==7.2.0
+# Only make_final_timeline.py needs reportlab; it was run on the host with reportlab 5.0.1.
+reportlab==5.0.1

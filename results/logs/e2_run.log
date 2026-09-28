@@ -1,0 +1,16 @@
+secondary  delay   0 ms  rate   1.0/s  reads  1674  stale   0.0% (lagging node 0.0% of 875)  read ms p50/p95 1.33/2.39  regressions    0  read-my-writes misses 0/31
+secondary  delay   0 ms  rate  10.0/s  reads  1694  stale  0.24% (lagging node 0.5% of 806)  read ms p50/p95 1.07/2.17  regressions    0  read-my-writes misses 0/301
+secondary  delay  10 ms  rate   1.0/s  reads  1786  stale  0.56% (lagging node 1.12% of 894)  read ms p50/p95 1.06/2.05  regressions    0  read-my-writes misses 15/31
+secondary  delay  10 ms  rate  10.0/s  reads  1787  stale  4.76% (lagging node 9.53% of 892)  read ms p50/p95 0.99/1.9  regressions    4  read-my-writes misses 145/301
+secondary  delay  50 ms  rate   1.0/s  reads  1777  stale  2.48% (lagging node 4.88% of 902)  read ms p50/p95 1.04/2.01  regressions    4  read-my-writes misses 20/31
+secondary  delay  50 ms  rate  10.0/s  reads  1715  stale 24.08% (lagging node 49.64% of 832)  read ms p50/p95 0.97/1.9  regressions   95  read-my-writes misses 141/301
+secondary  delay 200 ms  rate   1.0/s  reads  1622  stale  10.6% (lagging node 20.57% of 836)  read ms p50/p95 1.08/2.1  regressions   94  read-my-writes misses 13/31
+secondary  delay 200 ms  rate  10.0/s  reads  1714  stale 51.28% (lagging node 100.0% of 879)  read ms p50/p95 1.03/1.99  regressions  643  read-my-writes misses 146/301
+causal     delay   0 ms  rate   1.0/s  reads  1722  stale  0.06% (lagging node 0.12% of 860)  read ms p50/p95 1.04/2.0  regressions    0  read-my-writes misses 0/31
+causal     delay   0 ms  rate  10.0/s  reads  1714  stale  0.18% (lagging node 0.24% of 835)  read ms p50/p95 1.03/2.07  regressions    0  read-my-writes misses 0/301
+causal     delay  10 ms  rate   1.0/s  reads  1703  stale  0.23% (lagging node 0.48% of 839)  read ms p50/p95 1.22/2.16  regressions    0  read-my-writes misses 0/31
+causal     delay  10 ms  rate  10.0/s  reads  1783  stale  3.37% (lagging node 6.9% of 869)  read ms p50/p95 1.23/2.24  regressions    0  read-my-writes misses 0/301
+causal     delay  50 ms  rate   1.0/s  reads  1758  stale  1.25% (lagging node 2.51% of 878)  read ms p50/p95 1.59/2.57  regressions    0  read-my-writes misses 0/31
+causal     delay  50 ms  rate  10.0/s  reads  1752  stale 11.87% (lagging node 30.04% of 679)  read ms p50/p95 1.08/2.14  regressions    0  read-my-writes misses 0/301
+causal     delay 200 ms  rate   1.0/s  reads  1674  stale  1.19% (lagging node 2.97% of 673)  read ms p50/p95 1.5/2.47  regressions    0  read-my-writes misses 0/31
+causal     delay 200 ms  rate  10.0/s  reads  1497  stale 13.36% (lagging node 91.71% of 217)  read ms p50/p95 1.27/78.28  regressions    0  read-my-writes misses 0/228

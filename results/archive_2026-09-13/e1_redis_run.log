@@ -1,0 +1,10 @@
+primary = mongo1; delay is added on mongo2, mongo3, redis2
+delay   0 ms  redis-async     p50    0.11 ms  p95    0.14 ms  p99    0.19 ms  whole game   0.05 s
+delay   0 ms  redis-wait      p50    0.28 ms  p95     0.3 ms  p99    0.36 ms  whole game   0.13 s
+delay   2 ms  redis-async     p50    0.11 ms  p95    0.13 ms  p99    0.18 ms  whole game   0.05 s
+delay   2 ms  redis-wait      p50    3.08 ms  p95    3.86 ms  p99    4.62 ms  whole game   1.47 s
+delay  10 ms  redis-async     p50     0.1 ms  p95    0.13 ms  p99    0.16 ms  whole game   0.05 s
+delay  10 ms  redis-wait      p50   13.02 ms  p95   14.52 ms  p99   15.36 ms  whole game   6.07 s
+delay  50 ms  redis-async     p50     0.1 ms  p95    0.13 ms  p99    0.18 ms  whole game   0.05 s
+delay  50 ms  redis-wait      p50   53.18 ms  p95   56.28 ms  p99   57.14 ms  whole game  24.96 s
+wrote results/e1_summary.csv and results/e1_latency_raw.csv
