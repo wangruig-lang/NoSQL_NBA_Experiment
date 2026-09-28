@@ -72,3 +72,7 @@ MongoDB 7.0 was used because the 8.0 image did not start on this kernel ([SERVER
 ## Data source
 
 The play-by-play comes from the NBA Stats API `PlayByPlayV3` endpoint through [nba_api](https://github.com/swar/nba_api). It is not included in this repository; `fetch_pbp.py` downloads it and writes the raw response and the prepared replay file to `data/`.
+
+## License
+
+The code is released under the [MIT License](LICENSE). The measurement data, logs, and figures in `results/` are released under [CC BY 4.0](results/LICENSE); please credit this repository if you reuse them. NBA play-by-play data is not covered by either license.
